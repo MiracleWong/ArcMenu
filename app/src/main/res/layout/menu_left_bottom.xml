@@ -1,0 +1,47 @@
+<com.miraclewong.arcmenu.view.ArcMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:miracle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    miracle:position="left_bottom"
+    miracle:radius="120dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/composer_button"
+        >
+        <ImageView
+            android:id="@+id/id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/composer_icn_plus" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/composer_place"
+        android:tag="Place" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/composer_sleep"
+        android:tag="Sleep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/composer_thought"
+        android:tag="Sun" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/composer_with"
+        android:tag="People" />
+</com.miraclewong.arcmenu.view.ArcMenu>
+
